@@ -1,0 +1,8 @@
+/config.php
+/.idea
+*.log
+/cache
+/custom/application
+/custom/application/Ext
+/custom/modules/*/Ext
+/custom/modules/*/*/Ext
