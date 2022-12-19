@@ -160,3 +160,4 @@ Sat Dec 17 09:56:54 2022 [23191][25e2f59a-9ca4-cd67-e4cc-638c2b4c042c][FATAL] Ca
 Sat Dec 17 09:56:54 2022 [23191][25e2f59a-9ca4-cd67-e4cc-638c2b4c042c][FATAL] Caught error: touch(): UploadStream::stream_metadata is not implemented!
 Sat Dec 17 10:55:37 2022 [23794][1][FATAL] Exception handling in /var/www/html/include/MVC/Controller/SugarController.php:397
 Sat Dec 17 10:55:37 2022 [23794][1][FATAL] Exception in Controller: Error retrieving record. This record may be deleted or you may not be authorized to view it.
+Mon Dec 19 04:46:27 2022 [16528][1][FATAL] IP Address mismatch: SESSION IP: 58.187.187.21 CLIENT IP: 118.68.105.172
