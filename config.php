@@ -375,7 +375,7 @@ $sugar_config = array (
   ),
   'showDetailData' => true,
   'showThemePicker' => true,
-  'site_url' => 'http://20.2.65.196',
+  'site_url' => 'http://20.2.65.196/suitecrm',
   'slow_query_time_msec' => '100',
   'stackTrace' => false,
   'stack_trace_errors' => false,
