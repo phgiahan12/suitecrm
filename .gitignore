@@ -6,3 +6,4 @@
 /custom/modules/*/Ext
 /custom/modules/*/*/Ext
 /custom/blowfish
+*.log
