@@ -124,9 +124,9 @@ $sugar_config = array (
     'm.d.Y' => '12.23.2010',
   ),
   'datef' => 'm/d/Y',
-  'dbconfig' => 
+  'dbconfig' =>
   array (
-    'db_host_name' => '20.2.65.196',
+    'db_host_name' => '20.239.53.59',
     'db_host_instance' => 'SQLEXPRESS',
     'db_user_name' => 'admin',
     'db_password' => 'A_ZO@f7V_3Kw@1vA~@#6ciC~2E#9q@',
@@ -375,7 +375,7 @@ $sugar_config = array (
   ),
   'showDetailData' => true,
   'showThemePicker' => true,
-  'site_url' => 'http://20.2.65.196/suitecrm',
+  'site_url' => 'http://20.239.53.59',
   'slow_query_time_msec' => '100',
   'stackTrace' => false,
   'stack_trace_errors' => false,
@@ -383,7 +383,7 @@ $sugar_config = array (
   'sugar_version' => '6.5.25',
   'sugarbeet' => false,
   'suitecrm_version' => '7.12.8',
-  'system_email_templates' => 
+  'system_email_templates' =>
   array (
     'confirm_opt_in_template_id' => 'a3543220-d6a0-5de5-0836-63888c010082',
   ),
