@@ -126,7 +126,7 @@ $sugar_config = array (
   'datef' => 'm/d/Y',
   'dbconfig' =>
   array (
-    'db_host_name' => '104.208.82.11',
+    'db_host_name' => 'localhost',
     'db_host_instance' => 'SQLEXPRESS',
     'db_user_name' => 'admin',
     'db_password' => 'ad@uit###',
@@ -242,7 +242,7 @@ $sugar_config = array (
   'google_auth_json' => '',
   'hide_subpanels' => true,
   'history_max_viewed' => 50,
-  'host_name' => '20.2.65.196',
+  'host_name' => '104.208.82.11',
   'id_validation_pattern' => '/^[a-zA-Z0-9_-]*$/i',
   'imap_test' => false,
   'import_max_execution_time' => 3600,
@@ -375,7 +375,7 @@ $sugar_config = array (
   ),
   'showDetailData' => true,
   'showThemePicker' => true,
-  'site_url' => 'http://104.208.82.11/suitecrm',
+  'site_url' => 'http://proj-uit/SuiteCRM-7.12.8',
   'slow_query_time_msec' => '100',
   'stackTrace' => false,
   'stack_trace_errors' => false,
