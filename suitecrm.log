@@ -1,0 +1,203 @@
+Thu Dec  1 11:15:51 2022 [23280][1][SECURITY] OutboundEmail::checkSavePermissions - not logged in - skipping check
+Thu Dec  1 11:15:51 2022 [23280][1][FATAL] User update error: Temp User is not retrieved at ID 1, boolean given
+Thu Dec  1 11:15:51 2022 [23280][1][FATAL] Email address save error
+Thu Dec  1 11:15:57 2022 [23280][1][SECURITY] Invalid ext  logger_file_ext : ''.
+Thu Dec  1 11:15:57 2022 [23280][1][SECURITY] Setting logger_file_ext to '.log'.
+Thu Dec  1 11:15:57 2022 [23280][1][SECURITY] Setting logger_file_name to ''.
+Thu Dec  1 11:15:57 2022 [23280][1][SECURITY] Log file extension can't be blank.
+Thu Dec  1 11:15:57 2022 [23280][1][SECURITY] Setting logger_file_name to ''.
+Thu Dec  1 11:15:57 2022 [23280][1][SECURITY] Log file extension can't be blank.
+Thu Dec  1 11:16:17 2022 [23275][-none-][FATAL] SECURITY: User authentication for admin failed
+Thu Dec  1 11:16:17 2022 [23275][-none-][FATAL] FAILED LOGIN:attempts[1], ip[14.161.38.232], username[admin]
+Sun Dec  4 04:38:22 2022 [5326][-none-][FATAL] SECURITY: User authentication for test failed
+Sun Dec  4 04:38:22 2022 [5326][-none-][FATAL] FAILED LOGIN:attempts[1], ip[42.116.182.93], username[test]
+Sun Dec  4 04:38:34 2022 [4998][-none-][FATAL] SECURITY: User authentication for test failed
+Sun Dec  4 04:38:34 2022 [4998][-none-][FATAL] FAILED LOGIN:attempts[1], ip[42.116.182.93], username[test]
+Sun Dec  4 05:05:12 2022 [4995][1][FATAL] User update error: Temp User is not retrieved at ID debde43d-6b3b-183b-7163-638c2ab8d7cc, boolean given
+Sun Dec  4 05:05:34 2022 [7139][1][FATAL] Mysqli_query failed.
+Sun Dec  4 05:05:34 2022 [7139][1][FATAL]  Query Failed: UPDATE email_addresses 
+                  SET 
+                    email_address = '19520873@gm.uit.edu.vn', 
+                    email_address_caps = '19520873@GM.UIT.EDU.VN' 
+                  WHERE 
+                    id = ''cf350de7-c74a-b774-6b16-638c29b3bfc4'' AND
+                    deleted = 0: MySQL error 1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'cf350de7-c74a-b774-6b16-638c29b3bfc4'' AND
+                    deleted = 0' at line 6
+Sun Dec  4 05:06:08 2022 [7137][1][FATAL] User update error: Temp User is not retrieved at ID 44347094-f8d4-e66a-5658-638c2ac701ae, boolean given
+Sun Dec  4 05:06:08 2022 [7137][1][FATAL] Mysqli_query failed.
+Sun Dec  4 05:06:08 2022 [7137][1][FATAL]  Query Failed: UPDATE email_addresses 
+                  SET 
+                    email_address = '19520515@gm.uit.edu.vn', 
+                    email_address_caps = '19520515@GM.UIT.EDU.VN' 
+                  WHERE 
+                    id = ''5161aeaa-4616-4ed5-f5c5-638c2a588c3c'' AND
+                    deleted = 0: MySQL error 1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '5161aeaa-4616-4ed5-f5c5-638c2a588c3c'' AND
+                    deleted = 0' at line 6
+Sun Dec  4 05:08:26 2022 [4995][1][FATAL] User update error: Temp User is not retrieved at ID 25e2f59a-9ca4-cd67-e4cc-638c2b4c042c, boolean given
+Sun Dec  4 05:08:26 2022 [4995][1][FATAL] Email address save error
+Sun Dec  4 05:09:21 2022 [20270][1][FATAL] Mysqli_query failed.
+Sun Dec  4 05:09:21 2022 [20270][1][FATAL]  Query Failed: UPDATE email_addresses 
+                  SET 
+                    email_address = '19521453@gm.uit.edu.vn', 
+                    email_address_caps = '19521453@GM.UIT.EDU.VN' 
+                  WHERE 
+                    id = ''273642b5-1272-b431-8488-638c2b5be21e'' AND
+                    deleted = 0: MySQL error 1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '273642b5-1272-b431-8488-638c2b5be21e'' AND
+                    deleted = 0' at line 6
+Sun Dec  4 05:10:39 2022 [20505][1][SECURITY] Invalid ext  logger_file_ext : ''.
+Sun Dec  4 05:10:39 2022 [20505][1][SECURITY] Setting logger_file_ext to '.log'.
+Sun Dec  4 05:10:39 2022 [20505][1][SECURITY] Setting logger_file_name to ''.
+Sun Dec  4 05:10:39 2022 [20505][1][SECURITY] Log file extension can't be blank.
+Sun Dec  4 05:12:43 2022 [20505][1][FATAL] Email address save error
+Sun Dec  4 05:12:43 2022 [20505][1][FATAL] Saving probably failed or bean->save() method did not return with a positive result.
+Sun Dec  4 05:12:50 2022 [20505][1][FATAL] Email address save error
+Sun Dec  4 05:12:50 2022 [20505][1][FATAL] Saving probably failed or bean->save() method did not return with a positive result.
+Sun Dec  4 05:13:09 2022 [7139][1][FATAL] Email address save error
+Sun Dec  4 05:13:09 2022 [7139][1][FATAL] Saving probably failed or bean->save() method did not return with a positive result.
+Sun Dec  4 05:13:37 2022 [20269][1][FATAL] User update error: Temp User is not retrieved at ID 7adc0bd5-7c3e-535d-d4e9-638c2c60b8c7, boolean given
+Sun Dec  4 05:13:37 2022 [20269][1][FATAL] Mysqli_query failed.
+Sun Dec  4 05:13:37 2022 [20269][1][FATAL]  Query Failed: UPDATE email_addresses 
+                  SET 
+                    email_address = '19521000@gm.uit.edu.vn', 
+                    email_address_caps = '19521000@GM.UIT.EDU.VN' 
+                  WHERE 
+                    id = ''a5294403-c5ff-d5e5-242a-638c2b7ac5d1'' AND
+                    deleted = 0: MySQL error 1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'a5294403-c5ff-d5e5-242a-638c2b7ac5d1'' AND
+                    deleted = 0' at line 6
+Sun Dec  4 05:13:49 2022 [5326][1][FATAL] Email address save error
+Sun Dec  4 05:13:49 2022 [5326][1][FATAL] Saving probably failed or bean->save() method did not return with a positive result.
+Sun Dec  4 05:13:55 2022 [5326][1][FATAL] Email address save error
+Sun Dec  4 05:13:55 2022 [5326][1][FATAL] Saving probably failed or bean->save() method did not return with a positive result.
+Sun Dec  4 05:14:36 2022 [20270][1][FATAL] Email address save error
+Sun Dec  4 05:14:36 2022 [20270][1][FATAL] Saving probably failed or bean->save() method did not return with a positive result.
+Sun Dec  4 14:16:04 2022 [26807][1][SECURITY] Invalid ext  logger_file_ext : ''.
+Sun Dec  4 14:16:04 2022 [26807][1][SECURITY] Setting logger_file_ext to '.log'.
+Sun Dec  4 14:16:04 2022 [26807][1][SECURITY] Setting logger_file_name to ''.
+Sun Dec  4 14:16:04 2022 [26807][1][SECURITY] Log file extension can't be blank.
+Sun Dec  4 14:16:09 2022 [26806][1][SECURITY] Invalid ext  logger_file_ext : ''.
+Sun Dec  4 14:16:09 2022 [26806][1][SECURITY] Setting logger_file_ext to '.log'.
+Sun Dec  4 14:16:09 2022 [26806][1][SECURITY] Setting logger_file_name to ''.
+Sun Dec  4 14:16:09 2022 [26806][1][SECURITY] Log file extension can't be blank.
+Mon Dec  5 02:39:19 2022 [9151][cec60cac-1ee9-4e0d-d533-638c2902296d][FATAL] IP Address mismatch: SESSION IP: 14.161.6.190 CLIENT IP: 113.161.34.227
+Mon Dec  5 02:40:15 2022 [21538][1][FATAL] IP Address mismatch: SESSION IP: 113.161.34.227 CLIENT IP: 115.73.218.247
+Mon Dec  5 02:41:21 2022 [27004][25e2f59a-9ca4-cd67-e4cc-638c2b4c042c][FATAL] IP Address mismatch: SESSION IP: 203.205.32.65 CLIENT IP: 14.161.6.190
+Mon Dec  5 02:42:29 2022 [9273][25e2f59a-9ca4-cd67-e4cc-638c2b4c042c][FATAL] IP Address mismatch: SESSION IP: 1.52.35.233 CLIENT IP: 42.116.6.42
+Mon Dec  5 02:43:31 2022 [9152][1][FATAL] IP Address mismatch: SESSION IP: 101.99.36.202 CLIENT IP: 113.161.34.227
+Mon Dec  5 02:43:57 2022 [9152][44347094-f8d4-e66a-5658-638c2ac701ae][FATAL] IP Address mismatch: SESSION IP: 101.99.36.202 CLIENT IP: 42.116.6.42
+Mon Dec  5 02:44:15 2022 [9273][cec60cac-1ee9-4e0d-d533-638c2902296d][FATAL] IP Address mismatch: SESSION IP: 115.73.218.247 CLIENT IP: 14.161.6.190
+Mon Dec  5 02:44:23 2022 [9295][44347094-f8d4-e66a-5658-638c2ac701ae][FATAL] IP Address mismatch: SESSION IP: 203.205.32.65 CLIENT IP: 14.161.6.190
+Mon Dec  5 02:44:45 2022 [9300][cec60cac-1ee9-4e0d-d533-638c2902296d][FATAL] IP Address mismatch: SESSION IP: 101.99.36.202 CLIENT IP: 203.205.32.65
+Mon Dec  5 02:44:50 2022 [9295][1][FATAL] IP Address mismatch: SESSION IP: 115.78.210.191 CLIENT IP: 113.161.34.227
+Mon Dec  5 02:45:25 2022 [9316][1][FATAL] IP Address mismatch: SESSION IP: 42.116.6.42 CLIENT IP: 203.205.32.65
+Mon Dec  5 02:45:38 2022 [9302][1][FATAL] IP Address mismatch: SESSION IP: 203.205.32.65 CLIENT IP: 14.161.6.190
+Mon Dec  5 02:45:40 2022 [9152][1][FATAL] IP Address mismatch: SESSION IP: 115.73.218.247 CLIENT IP: 1.52.35.233
+Mon Dec  5 02:45:40 2022 [9313][-none-][FATAL] SECURITY: User authentication for quan.tran failed
+Mon Dec  5 02:45:40 2022 [9313][-none-][FATAL] FAILED LOGIN:attempts[1], ip[203.205.32.65], username[quan.tran]
+Mon Dec  5 02:45:41 2022 [9272][1][FATAL] IP Address mismatch: SESSION IP: 115.73.218.247 CLIENT IP: 1.52.35.233
+Mon Dec  5 02:45:48 2022 [9326][1][FATAL] IP Address mismatch: SESSION IP: 1.52.35.233 CLIENT IP: 203.205.32.65
+Mon Dec  5 02:46:14 2022 [9325][1][FATAL] IP Address mismatch: SESSION IP: 113.161.34.227 CLIENT IP: 42.116.6.42
+Mon Dec  5 02:46:26 2022 [9344][1][FATAL] IP Address mismatch: SESSION IP: 203.205.32.65 CLIENT IP: 115.78.210.191
+Mon Dec  5 02:46:29 2022 [9313][1][FATAL] IP Address mismatch: SESSION IP: 42.116.6.42 CLIENT IP: 115.78.210.191
+Mon Dec  5 02:47:17 2022 [9302][debde43d-6b3b-183b-7163-638c2ab8d7cc][FATAL] IP Address mismatch: SESSION IP: 42.116.6.42 CLIENT IP: 113.161.34.227
+Mon Dec  5 02:47:39 2022 [9329][cec60cac-1ee9-4e0d-d533-638c2902296d][FATAL] IP Address mismatch: SESSION IP: 1.52.35.233 CLIENT IP: 115.78.210.191
+Mon Dec  5 02:47:52 2022 [9313][cec60cac-1ee9-4e0d-d533-638c2902296d][FATAL] IP Address mismatch: SESSION IP: 115.78.210.191 CLIENT IP: 115.73.218.247
+Mon Dec  5 02:48:14 2022 [9348][cec60cac-1ee9-4e0d-d533-638c2902296d][FATAL] IP Address mismatch: SESSION IP: 115.73.218.247 CLIENT IP: 113.161.34.227
+Mon Dec  5 02:48:56 2022 [9325][cec60cac-1ee9-4e0d-d533-638c2902296d][FATAL] IP Address mismatch: SESSION IP: 113.161.34.227 CLIENT IP: 115.78.210.191
+Mon Dec  5 02:49:53 2022 [9302][cec60cac-1ee9-4e0d-d533-638c2902296d][FATAL] IP Address mismatch: SESSION IP: 203.205.32.65 CLIENT IP: 42.116.6.42
+Mon Dec  5 02:50:07 2022 [9330][cec60cac-1ee9-4e0d-d533-638c2902296d][FATAL] IP Address mismatch: SESSION IP: 101.99.36.202 CLIENT IP: 113.161.34.227
+Mon Dec  5 02:51:30 2022 [9325][cec60cac-1ee9-4e0d-d533-638c2902296d][FATAL] IP Address mismatch: SESSION IP: 115.73.218.247 CLIENT IP: 14.161.6.190
+Mon Dec  5 02:51:49 2022 [9345][cec60cac-1ee9-4e0d-d533-638c2902296d][FATAL] IP Address mismatch: SESSION IP: 115.73.218.247 CLIENT IP: 101.99.36.202
+Mon Dec  5 02:52:15 2022 [9330][debde43d-6b3b-183b-7163-638c2ab8d7cc][FATAL] IP Address mismatch: SESSION IP: 115.73.218.247 CLIENT IP: 113.161.34.227
+Mon Dec  5 02:52:21 2022 [9348][cec60cac-1ee9-4e0d-d533-638c2902296d][FATAL] IP Address mismatch: SESSION IP: 101.99.36.202 CLIENT IP: 113.161.34.227
+Mon Dec  5 02:53:15 2022 [9331][cec60cac-1ee9-4e0d-d533-638c2902296d][FATAL] IP Address mismatch: SESSION IP: 1.52.35.233 CLIENT IP: 115.73.218.247
+Mon Dec  5 02:53:51 2022 [9302][cec60cac-1ee9-4e0d-d533-638c2902296d][FATAL] IP Address mismatch: SESSION IP: 115.73.218.247 CLIENT IP: 115.78.210.191
+Mon Dec  5 02:53:55 2022 [9272][1][FATAL] IP Address mismatch: SESSION IP: 115.78.210.191 CLIENT IP: 115.73.218.247
+Mon Dec  5 02:54:01 2022 [9344][cec60cac-1ee9-4e0d-d533-638c2902296d][FATAL] IP Address mismatch: SESSION IP: 115.78.210.191 CLIENT IP: 115.73.218.247
+Mon Dec  5 02:54:06 2022 [9302][debde43d-6b3b-183b-7163-638c2ab8d7cc][FATAL] IP Address mismatch: SESSION IP: 113.161.34.227 CLIENT IP: 14.161.6.190
+Mon Dec  5 02:54:08 2022 [9325][1][FATAL] IP Address mismatch: SESSION IP: 1.52.35.233 CLIENT IP: 14.161.6.190
+Mon Dec  5 02:55:06 2022 [9547][cec60cac-1ee9-4e0d-d533-638c2902296d][FATAL] IP Address mismatch: SESSION IP: 115.78.210.191 CLIENT IP: 113.161.34.227
+Mon Dec  5 02:55:13 2022 [9302][cec60cac-1ee9-4e0d-d533-638c2902296d][FATAL] IP Address mismatch: SESSION IP: 115.78.210.191 CLIENT IP: 42.116.6.42
+Mon Dec  5 02:56:24 2022 [9536][cec60cac-1ee9-4e0d-d533-638c2902296d][FATAL] IP Address mismatch: SESSION IP: 115.78.210.191 CLIENT IP: 115.73.218.247
+Mon Dec  5 03:01:38 2022 [9538][debde43d-6b3b-183b-7163-638c2ab8d7cc][FATAL] IP Address mismatch: SESSION IP: 14.161.6.190 CLIENT IP: 101.99.36.202
+Mon Dec  5 03:02:45 2022 [9536][debde43d-6b3b-183b-7163-638c2ab8d7cc][FATAL] IP Address mismatch: SESSION IP: 101.99.36.202 CLIENT IP: 115.78.210.191
+Mon Dec  5 03:02:55 2022 [9272][cec60cac-1ee9-4e0d-d533-638c2902296d][FATAL] IP Address mismatch: SESSION IP: 1.52.35.233 CLIENT IP: 113.161.34.227
+Mon Dec  5 03:03:04 2022 [9547][cec60cac-1ee9-4e0d-d533-638c2902296d][FATAL] Exception handling in /var/www/html/include/MVC/Controller/SugarController.php:397
+Mon Dec  5 03:03:04 2022 [9547][cec60cac-1ee9-4e0d-d533-638c2902296d][FATAL] Exception in Controller: Subpanel was not defined
+Mon Dec  5 03:03:06 2022 [9547][cec60cac-1ee9-4e0d-d533-638c2902296d][FATAL] Exception handling in /var/www/html/include/MVC/Controller/SugarController.php:397
+Mon Dec  5 03:03:06 2022 [9547][cec60cac-1ee9-4e0d-d533-638c2902296d][FATAL] Exception in Controller: Subpanel was not defined
+Mon Dec  5 03:03:07 2022 [9547][cec60cac-1ee9-4e0d-d533-638c2902296d][FATAL] Exception handling in /var/www/html/include/MVC/Controller/SugarController.php:397
+Mon Dec  5 03:03:07 2022 [9547][cec60cac-1ee9-4e0d-d533-638c2902296d][FATAL] Exception in Controller: Subpanel was not defined
+Mon Dec  5 03:03:07 2022 [9547][cec60cac-1ee9-4e0d-d533-638c2902296d][FATAL] Exception handling in /var/www/html/include/MVC/Controller/SugarController.php:397
+Mon Dec  5 03:03:07 2022 [9547][cec60cac-1ee9-4e0d-d533-638c2902296d][FATAL] Exception in Controller: Subpanel was not defined
+Mon Dec  5 03:03:08 2022 [9547][cec60cac-1ee9-4e0d-d533-638c2902296d][FATAL] Exception handling in /var/www/html/include/MVC/Controller/SugarController.php:397
+Mon Dec  5 03:03:08 2022 [9547][cec60cac-1ee9-4e0d-d533-638c2902296d][FATAL] Exception in Controller: Subpanel was not defined
+Mon Dec  5 03:03:08 2022 [9547][cec60cac-1ee9-4e0d-d533-638c2902296d][FATAL] Exception handling in /var/www/html/include/MVC/Controller/SugarController.php:397
+Mon Dec  5 03:03:08 2022 [9547][cec60cac-1ee9-4e0d-d533-638c2902296d][FATAL] Exception in Controller: Subpanel was not defined
+Mon Dec  5 03:03:08 2022 [9547][cec60cac-1ee9-4e0d-d533-638c2902296d][FATAL] Exception handling in /var/www/html/include/MVC/Controller/SugarController.php:397
+Mon Dec  5 03:03:08 2022 [9547][cec60cac-1ee9-4e0d-d533-638c2902296d][FATAL] Exception in Controller: Subpanel was not defined
+Mon Dec  5 03:03:25 2022 [9537][cec60cac-1ee9-4e0d-d533-638c2902296d][FATAL] IP Address mismatch: SESSION IP: 203.205.32.65 CLIENT IP: 115.78.210.191
+Mon Dec  5 03:03:42 2022 [9325][cec60cac-1ee9-4e0d-d533-638c2902296d][FATAL] IP Address mismatch: SESSION IP: 1.52.35.233 CLIENT IP: 101.99.36.202
+Mon Dec  5 03:04:02 2022 [9344][debde43d-6b3b-183b-7163-638c2ab8d7cc][FATAL] IP Address mismatch: SESSION IP: 203.205.32.65 CLIENT IP: 115.73.218.247
+Mon Dec  5 03:04:22 2022 [9331][cec60cac-1ee9-4e0d-d533-638c2902296d][FATAL] IP Address mismatch: SESSION IP: 1.52.35.233 CLIENT IP: 115.73.218.247
+Mon Dec  5 03:08:08 2022 [9538][debde43d-6b3b-183b-7163-638c2ab8d7cc][FATAL] IP Address mismatch: SESSION IP: 1.52.35.233 CLIENT IP: 14.161.6.190
+Mon Dec  5 03:08:57 2022 [9344][debde43d-6b3b-183b-7163-638c2ab8d7cc][FATAL] IP Address mismatch: SESSION IP: 115.78.210.191 CLIENT IP: 203.205.32.65
+Mon Dec  5 03:09:58 2022 [9536][debde43d-6b3b-183b-7163-638c2ab8d7cc][FATAL] IP Address mismatch: SESSION IP: 203.205.32.65 CLIENT IP: 115.78.210.191
+Mon Dec  5 03:24:32 2022 [9344][1][FATAL] IP Address mismatch: SESSION IP: 1.52.35.233 CLIENT IP: 42.116.6.42
+Mon Dec  5 03:25:00 2022 [9547][1][FATAL] IP Address mismatch: SESSION IP: 203.205.32.65 CLIENT IP: 101.99.36.202
+Mon Dec  5 03:25:22 2022 [9537][44347094-f8d4-e66a-5658-638c2ac701ae][FATAL] IP Address mismatch: SESSION IP: 14.161.6.190 CLIENT IP: 115.78.210.191
+Mon Dec  5 03:54:38 2022 [9602][debde43d-6b3b-183b-7163-638c2ab8d7cc][FATAL] IP Address mismatch: SESSION IP: 203.205.32.65 CLIENT IP: 115.78.210.191
+Thu Dec 15 08:10:08 2022 [2039][25e2f59a-9ca4-cd67-e4cc-638c2b4c042c][FATAL] Invalid import file name
+Thu Dec 15 08:10:29 2022 [2037][25e2f59a-9ca4-cd67-e4cc-638c2b4c042c][FATAL] Invalid import file name
+Thu Dec 15 17:25:38 2022 [11668][-none-][FATAL] SECURITY: User authentication for admin failed
+Thu Dec 15 17:25:38 2022 [11668][-none-][FATAL] FAILED LOGIN:attempts[1], ip[171.252.154.193], username[admin]
+Sat Dec 17 09:50:22 2022 [23794][25e2f59a-9ca4-cd67-e4cc-638c2b4c042c][FATAL] Caught error: stat(): stat failed for upload/import/error_25e2f59a-9ca4-cd67-e4cc-638c2b4c042c.csv
+Sat Dec 17 09:50:22 2022 [23794][25e2f59a-9ca4-cd67-e4cc-638c2b4c042c][FATAL] Caught error: touch(): UploadStream::stream_metadata is not implemented!
+Sat Dec 17 09:50:22 2022 [23794][25e2f59a-9ca4-cd67-e4cc-638c2b4c042c][FATAL] Caught error: stat(): stat failed for upload/import/status_25e2f59a-9ca4-cd67-e4cc-638c2b4c042c.csv
+Sat Dec 17 09:50:22 2022 [23794][25e2f59a-9ca4-cd67-e4cc-638c2b4c042c][FATAL] Caught error: touch(): UploadStream::stream_metadata is not implemented!
+Sat Dec 17 09:56:54 2022 [23191][25e2f59a-9ca4-cd67-e4cc-638c2b4c042c][FATAL] Caught error: stat(): stat failed for upload/import/error_25e2f59a-9ca4-cd67-e4cc-638c2b4c042c.csv
+Sat Dec 17 09:56:54 2022 [23191][25e2f59a-9ca4-cd67-e4cc-638c2b4c042c][FATAL] Caught error: touch(): UploadStream::stream_metadata is not implemented!
+Sat Dec 17 09:56:54 2022 [23191][25e2f59a-9ca4-cd67-e4cc-638c2b4c042c][FATAL] Caught error: stat(): stat failed for upload/import/status_25e2f59a-9ca4-cd67-e4cc-638c2b4c042c.csv
+Sat Dec 17 09:56:54 2022 [23191][25e2f59a-9ca4-cd67-e4cc-638c2b4c042c][FATAL] Caught error: touch(): UploadStream::stream_metadata is not implemented!
+Sat Dec 17 10:55:37 2022 [23794][1][FATAL] Exception handling in /var/www/html/include/MVC/Controller/SugarController.php:397
+Sat Dec 17 10:55:37 2022 [23794][1][FATAL] Exception in Controller: Error retrieving record. This record may be deleted or you may not be authorized to view it.
+Mon Dec 19 04:46:27 2022 [16528][1][FATAL] IP Address mismatch: SESSION IP: 58.187.187.21 CLIENT IP: 118.68.105.172
+Mon Dec 19 18:13:39 2022 [2700][1][FATAL] Exception handling in D:\wamp64\www\proj-uit\SuiteCRM-7.12.8\include\MVC\Controller\SugarController.php:397
+Mon Dec 19 18:13:39 2022 [2700][1][FATAL] Exception in Controller: Error retrieving record. This record may be deleted or you may not be authorized to view it.
+Mon Dec 19 18:13:49 2022 [2700][1][FATAL] Exception handling in D:\wamp64\www\proj-uit\SuiteCRM-7.12.8\include\MVC\Controller\SugarController.php:397
+Mon Dec 19 18:13:49 2022 [2700][1][FATAL] Exception in Controller: Error retrieving record. This record may be deleted or you may not be authorized to view it.
+Mon Dec 19 18:21:04 2022 [2700][1][FATAL] Exception handling in D:\wamp64\www\proj-uit\SuiteCRM-7.12.8\include\MVC\Controller\SugarController.php:397
+Mon Dec 19 18:21:04 2022 [2700][1][FATAL] Exception in Controller: Error retrieving record. This record may be deleted or you may not be authorized to view it.
+Wed Jan  4 12:14:47 2023 [10368][-none-][FATAL] Could not connect to DB server 104.208.82.11 as admin. port 3306: No connection could be made because the target machine actively refused it.
+
+Wed Jan  4 12:16:28 2023 [10368][-none-][FATAL] Could not connect to DB server 104.208.82.11 as admin. port 3306: No connection could be made because the target machine actively refused it.
+
+Wed Jan  4 12:16:35 2023 [10368][-none-][FATAL] Could not connect to DB server 104.208.82.11 as admin. port 3306: No connection could be made because the target machine actively refused it.
+
+Wed Jan  4 12:16:46 2023 [10368][-none-][FATAL] Could not connect to DB server 104.208.82.11 as admin. port 3306: No connection could be made because the target machine actively refused it.
+
+Wed Jan  4 14:26:24 2023 [10368][-none-][FATAL] Could not connect to DB server localhost as root. port 3306: Unknown database 'suitecrm2'
+Wed Jan  4 14:26:26 2023 [10368][-none-][FATAL] Could not connect to DB server localhost as root. port 3306: Unknown database 'suitecrm2'
+Wed Jan  4 14:26:26 2023 [10368][-none-][FATAL] Could not connect to DB server localhost as root. port 3306: Unknown database 'suitecrm2'
+Wed Jan  4 14:26:26 2023 [10368][-none-][FATAL] Could not connect to DB server localhost as root. port 3306: Unknown database 'suitecrm2'
+Wed Jan  4 14:26:27 2023 [10368][-none-][FATAL] Could not connect to DB server localhost as root. port 3306: Unknown database 'suitecrm2'
+Wed Jan  4 14:26:27 2023 [10368][-none-][FATAL] Could not connect to DB server localhost as root. port 3306: Unknown database 'suitecrm2'
+Wed Jan  4 14:26:35 2023 [10368][-none-][FATAL] Could not connect to DB server localhost as root. port 3306: Unknown database 'suitecrm2'
+Wed Jan  4 14:29:06 2023 [10368][-none-][FATAL] Could not connect to DB server localhost as admin. port 3306: Access denied for user 'admin'@'localhost' (using password: YES)
+Wed Jan  4 14:30:06 2023 [10368][-none-][FATAL] Could not connect to DB server localhost as admin. port 3306: Access denied for user 'admin'@'localhost' (using password: YES)
+Wed Jan  4 14:31:06 2023 [10368][-none-][FATAL] Could not connect to DB server localhost as admin. port 3306: Access denied for user 'admin'@'localhost' (using password: YES)
+Wed Jan  4 14:32:06 2023 [10368][-none-][FATAL] Could not connect to DB server 127.0.0.1 as admin. port 3306: Access denied for user 'admin'@'localhost' (using password: YES)
+Wed Jan  4 14:32:24 2023 [10368][-none-][FATAL] Could not connect to DB server 127.0.0.1 as admin. port 3306: Access denied for user 'admin'@'localhost' (using password: YES)
+Wed Jan  4 14:32:26 2023 [10368][-none-][FATAL] Could not connect to DB server 127.0.0.1 as admin. port 3306: Access denied for user 'admin'@'localhost' (using password: YES)
+Wed Jan  4 14:32:26 2023 [10368][-none-][FATAL] Could not connect to DB server 127.0.0.1 as admin. port 3306: Access denied for user 'admin'@'localhost' (using password: YES)
+Wed Jan  4 14:32:36 2023 [10368][-none-][FATAL] Could not connect to DB server localhost as admin. port 3306: Access denied for user 'admin'@'localhost' (using password: YES)
+Wed Jan  4 14:32:37 2023 [10368][-none-][FATAL] Could not connect to DB server localhost as admin. port 3306: Access denied for user 'admin'@'localhost' (using password: YES)
+Wed Jan  4 14:32:40 2023 [10368][-none-][FATAL] Could not connect to DB server localhost as admin. port 3306: Access denied for user 'admin'@'localhost' (using password: YES)
+Wed Jan  4 14:33:36 2023 [10368][-none-][FATAL] Could not connect to DB server localhost as admin. port 3306: Access denied for user 'admin'@'localhost' (using password: YES)
+Wed Jan  4 14:33:37 2023 [10368][-none-][FATAL] Could not connect to DB server localhost as admin. port 3306: Access denied for user 'admin'@'localhost' (using password: YES)
+Wed Jan  4 14:33:51 2023 [10368][-none-][FATAL] Could not connect to DB server localhost as admin. port 3306: Access denied for user 'admin'@'localhost' (using password: YES)
+Wed Jan  4 14:36:21 2023 [10368][-none-][FATAL] Could not connect to DB server localhost as admin. port 3306: Access denied for user 'admin'@'localhost' (using password: YES)
+Wed Jan  4 14:37:22 2023 [10368][-none-][FATAL] Could not connect to DB server localhost as admin. port 3306: Access denied for user 'admin'@'localhost' (using password: YES)
+Wed Jan  4 14:38:25 2023 [10368][-none-][FATAL] Could not connect to DB server 104.208.82.11 as admin. port 3306: No connection could be made because the target machine actively refused it.
+
+Wed Jan  4 14:39:23 2023 [10368][-none-][FATAL] Could not connect to DB server 127.0.0.1 as admin. port 3306: Access denied for user 'admin'@'localhost' (using password: YES)
+Wed Jan  4 14:40:23 2023 [10368][-none-][FATAL] Could not connect to DB server 127.0.0.1 as admin. port 3306: Access denied for user 'admin'@'localhost' (using password: YES)
