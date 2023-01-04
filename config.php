@@ -128,8 +128,8 @@ $sugar_config = array (
   array (
     'db_host_name' => 'localhost',
     'db_host_instance' => 'SQLEXPRESS',
-    'db_user_name' => 'admin',
-    'db_password' => 'ad@uit###',
+    'db_user_name' => 'root',
+    'db_password' => '',
     'db_name' => 'suitecrm',
     'db_type' => 'mysql',
     'db_port' => '3306',
