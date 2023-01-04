@@ -126,10 +126,10 @@ $sugar_config = array (
   'datef' => 'm/d/Y',
   'dbconfig' =>
   array (
-    'db_host_name' => '20.239.53.59',
+    'db_host_name' => '104.208.82.11',
     'db_host_instance' => 'SQLEXPRESS',
     'db_user_name' => 'admin',
-    'db_password' => 'A_ZO@f7V_3Kw@1vA~@#6ciC~2E#9q@',
+    'db_password' => 'ad@uit###',
     'db_name' => 'suitecrm',
     'db_type' => 'mysql',
     'db_port' => '3306',
@@ -375,7 +375,7 @@ $sugar_config = array (
   ),
   'showDetailData' => true,
   'showThemePicker' => true,
-  'site_url' => 'http://20.239.53.59',
+  'site_url' => 'http://104.208.82.11/suitecrm',
   'slow_query_time_msec' => '100',
   'stackTrace' => false,
   'stack_trace_errors' => false,
