@@ -126,13 +126,13 @@ $sugar_config = array (
   'datef' => 'm/d/Y',
   'dbconfig' =>
   array (
-    'db_host_name' => 'localhost',
+    'db_host_name' => '104.208.82.11',
     'db_host_instance' => 'SQLEXPRESS',
-    'db_user_name' => 'root',
-    'db_password' => '',
+    'db_user_name' => 'admin',
+    'db_password' => 'ad@uit###',
     'db_name' => 'suitecrm',
     'db_type' => 'mysql',
-    'db_port' => '3306',
+    'db_port' => '',
     'db_manager' => 'MysqliManager',
     'collation' => 'utf8mb4_general_ci',
     'charset' => 'utf8mb4',
