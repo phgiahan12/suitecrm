@@ -157,3 +157,26 @@ $app_list_strings['marketing_channel_dom'] = array(
     'Marketing Relationship' => 'Marketing Relationship',
     'Others' => 'Others',
 );
+$app_list_strings['call_result_options'] = array(
+    '' => '-none-',
+    'Interested' => 'Interested',
+    'Not Interested' => 'Not Interested',
+    'Impossible to Convert' => 'Impossible to Convert',
+    'Busy/No Answer' => 'Busy/No Answer',
+    'Invalid Number' => 'Invalid Number',
+    'Out of Cover' => 'Out of Cover',
+    'Request More Info' => 'Request More Info',
+    'Call Back Later' => 'Call Back Later',
+    'Deny' => 'Deny',
+    'Duplicate' => 'Duplicate',
+    'Need To Solved' => 'Need To Solved',
+    'Other' => 'Other',
+);
+$app_list_strings['call_purpose_options'] = array(
+    '' => 'None',
+    'Demo/PT' => 'Demo/PT',
+    'Care'=>'Care',
+    'Consultant'=>'Consultant',
+    'Admission' => 'Admission',
+    'Others'=>'Others'
+);
