@@ -18,6 +18,6 @@ $mod_strings = array(
     'LBL_ACCOUNTANT_ID'     => 'ID Kế toán trưởng',
     'LBL_LEGAL_NAME'        => 'Tên pháp lý',
     'LBL_TAX_CODE'          => 'Mã số thuế',
-    'LBL_DIRECTOR_NAME'     => 'Director Key Contact',
-    'LBL_DIRECTOR_ID'       => 'Director Key Contact ID',
+    'LBL_DIRECTOR_NAME'     => 'Người liên hệ chính',
+    'LBL_DIRECTOR_ID'       => 'ID Người liêu hệ chính',
 );
