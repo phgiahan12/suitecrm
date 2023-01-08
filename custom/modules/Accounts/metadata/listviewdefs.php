@@ -12,7 +12,7 @@ array (
   array (
     'type' => 'varchar',
     'label' => 'LBL_LEGAL_NAME',
-    'width' => '10%',
+    'width' => '25%',
     'default' => true,
   ),
   'TAX_CODE' => 
