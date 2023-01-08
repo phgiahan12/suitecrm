@@ -17,3 +17,12 @@ $dictionary["Contact"]["relationships"]["account_director"] = array (
     'rhs_key' => 'director_id',
     'relationship_type' => 'one-to-many'
 );
+$dictionary["Contact"]["relationships"]["referral_contacts"] = array (
+    'lhs_module' => 'Contacts',
+    'lhs_table' => 'contacts',
+    'lhs_key' => 'id',
+    'rhs_module' => 'Contacts',
+    'rhs_table' => 'contacts',
+    'rhs_key' => 'referral_id',
+    'relationship_type' => 'one-to-many'
+);

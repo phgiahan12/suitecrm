@@ -1,5 +1,4 @@
 <?php
-// Account
 $app_list_strings['institution_type_options'] = array (
     ''                    => '-none-',
     'English/Private Language Schools' => 'English/Private Language Schools',
@@ -79,8 +78,12 @@ $app_list_strings['account_bank_name_options'] = array (
     'VIB'                   => 'Ngân hàng TMCP Quốc tế (VIB)',
     'VRB'                   => 'Ngân hàng Liên doanh Việt - Nga (VRB)',
 );
-
-// Lead
+$app_list_strings['target_status_dom'] = array (
+    'New'           => 'New',
+    'In Progress'   => 'In Progress',
+    'Transferred'   => 'Transferred',
+    'Junk'          => 'Junk',
+);
 $app_list_strings['lead_status_dom'] = array(
     'New' => 'New',
     'In Progress' => 'In Progress',
@@ -89,12 +92,68 @@ $app_list_strings['lead_status_dom'] = array(
     'Converted' => 'Converted',
     'Dead' => 'Dead',
 );
-
-// Quote
+$app_list_strings['salutation_dom'] = array(
+    '' => '',
+    'Mr.' => 'Mr.',
+    'Ms.' => 'Ms.',
+);
 $app_list_strings['quote_stage_dom'] = array(
     'Draft'     => 'Bản thảo',
     'Quoted'    => 'Đã gửi báo giá',
     'Confirmed' => 'Đã xác nhận',
     'Denied'    => 'KH từ chối',
     'Expired'   => 'Hết hạn'
+);
+$app_list_strings['job_title_list'] = array(
+    ''                    => '-none-',
+    'CEO'                 => 'Chief Executive Officer (CEO)',
+    'Marketing Manager'   => 'Marketing Manager',
+    'Sales Manager'       => 'Sales Manager',
+    'CS Manager'          => 'CS Manager',
+    'IT Manager'          => 'IT Manager',
+    'Marketer'            => 'Marketer',
+    'Salesman'            => 'Sales Staff',
+    'Customer Care Staff' => 'Customer Care Staff',
+    'IT Staff'            => 'IT Staff',
+    'Others'              => 'Others',
+);
+$app_list_strings['department_list'] = array(
+    ''                       => '-none-',
+    'BOD'                    => 'Board of Directors',
+    'Marketing'              => 'Marketing',
+    'Sales '                 => 'Sales',
+    'Customer Care'          => 'Customer Care',
+    'Information Technology' => 'Information Technology',
+    'Other'                  => 'Other',
+);
+$app_list_strings['school_type_options'] = array (
+    ''              => '-none-',
+    'Domestic'      => 'Domestic',
+    'International' => 'International',
+    'Other'         => 'Other',
+);
+$app_list_strings['number_of_students_options'] = array(
+    ''                          => '-none-',
+    'less than 300 students'    => 'Less than 300 students',
+    '300_1500 students'         => '300 - 1500 students',
+    '1500_5000 students'        => '1500 - 5000 students',
+    '5000_10 000 students'      => '5000 - 10 000 students',
+    'more than 10 000 students' => 'More than 10 000 students'
+);
+$app_list_strings['marketing_channel_dom'] = array(
+    '' => '-none-',
+    'Website' => 'Website',
+    'Landing Page' => 'Landing Page',
+    'Google' => 'Google',
+    'Facebook' => 'Facebook',
+    'Coc Coc' => 'Coc Coc',
+    'Search' => 'Search',
+    'Email' => 'Email',
+    'Tools' => 'Tools',
+    'Online Partner' => 'Online Partner',
+    'Online Campaign' => 'Online Campaign',
+    'Current Contact' => 'Current Contact',
+    'Staff' => 'Staff',
+    'Marketing Relationship' => 'Marketing Relationship',
+    'Others' => 'Others',
 );

@@ -1,5 +1,4 @@
 <?php
-// Account
 $app_list_strings['institution_type_options'] = array (
     ''                    => '-không có-',
     'English/Private Language Schools' => 'Trung tâm Ngoại Ngữ',
@@ -79,8 +78,12 @@ $app_list_strings['account_bank_name_options'] = array (
     'VIB'                   => 'Ngân hàng TMCP Quốc tế (VIB)',
     'VRB'                   => 'Ngân hàng Liên doanh Việt - Nga (VRB)',
 );
-
-// Lead
+$app_list_strings['target_status_dom'] = array (
+    'New'           => 'Mới',
+    'In Progress'   => 'Đang chăm sóc',
+    'Transferred'   => 'Đã chuyển đổi',
+    'Junk'          => 'Không có tiềm năng',
+);
 $app_list_strings['lead_status_dom'] = array(
     'New'         => 'Mới',
     'In Progress' => 'Đang chăm sóc',
@@ -89,12 +92,68 @@ $app_list_strings['lead_status_dom'] = array(
     'Converted'   => 'Đã chuyển đổi',
     'Dead'        => 'Không có tiềm năng',
 );
-
-// Quote
+$app_list_strings['salutation_dom'] = array(
+    '' => '',
+    'Mr.' => 'Anh',
+    'Ms.' => 'Chị',
+);
 $app_list_strings['quote_stage_dom'] = array(
     'Draft'     => 'Draft',
     'Quoted'    => 'Quoted',
     'Confirmed' => 'Confirmed',
     'Denied'    => 'Denied',
     'Expired'   => 'Expired',
+);
+$app_list_strings['job_title_list'] = array(
+    ''                    => '-none-',
+    'CEO'                 => 'Tổng giám đốc (CEO)',
+    'Marketing Manager'   => 'Trưởng phòng Marketing',
+    'Sales Manager'       => 'Trưởng phòng Kinh doanh',
+    'CS Manager'          => 'Trưởng phòng Chăm sóc khách hàng',
+    'IT Manager'          => 'Trưởng phòng IT',
+    'Marketer'            => 'Nhân viên Marketing',
+    'Salesman'            => 'Nhân viên Bán hàng',
+    'Customer Care Staff' => 'Nhân viên Chăm sóc khách hàng',
+    'IT Staff'            => 'Nhân viên IT',
+    'Others'              => 'Khác',
+);
+$app_list_strings['department_list'] = array(
+    ''                       => '-none-',
+    'BOD'                    => 'Ban giám đốc',
+    'Marketing'              => 'Phòng Marketing',
+    'Sales '                 => 'Phòng Kinh doanh',
+    'Customer Care'          => 'Phòng Chăm sóc khách hàng',
+    'Information Technology' => 'Phòng Công nghệ thông tin',
+    'Other'                  => 'Khác',
+);
+$app_list_strings['school_type_options'] = array (
+    ''              => '-không có-',
+    'Domestic'      => 'Trường Công lập',
+    'International' => 'Trường Quốc tế',
+    'Other'         => 'Khác',
+);
+$app_list_strings['number_of_students_options'] = array(
+    ''                          => '-none-',
+    'less than 300 students'    => 'Dưới 300 học viên',
+    '300_1500 students'         => '300 - 1500 học viên',
+    '1500_5000 students'        => '1500 - 5000 học viên',
+    '5000_10 000 students'      => '5000 - 10 000 học viên',
+    'more than 10 000 students' => 'trên 10 000 học viên'
+);
+$app_list_strings['marketing_channel_dom'] = array(
+    '' => '-none-',
+    'Website' => 'Website',
+    'Landing Page' => 'Landing Page',
+    'Google' => 'Google',
+    'Facebook' => 'Facebook',
+    'Coc Coc' => 'Coc Coc',
+    'Search' => 'Search',
+    'Email' => 'Email',
+    'Tools' => 'Tools',
+    'Online Partner' => 'Online Partner',
+    'Online Campaign' => 'Online Campaign',
+    'Current Contact' => 'Current Contact',
+    'Staff' => 'Staff',
+    'Marketing Relationship' => 'Marketing Relationship',
+    'Others' => 'Others',
 );
