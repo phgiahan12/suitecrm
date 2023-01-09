@@ -178,6 +178,19 @@ class SugarPHPMailer extends PHPMailer
             }
         } else {
             $this->Mailer = 'sendmail';
+            $this->Host = $oe->mail_smtpserver;
+            $this->Port = $oe->mail_smtpport;
+            if ($oe->mail_smtpssl == 1) {
+                $this->SMTPSecure = 'ssl';
+            } // if
+            if ($oe->mail_smtpssl == 2) {
+                $this->SMTPSecure = 'tls';
+            } // if
+            if ($oe->mail_smtpauth_req) {
+                $this->SMTPAuth = true;
+                $this->Username = $oe->mail_smtpuser;
+                $this->Password = $oe->mail_smtppass;
+            }
         }
     }
 
