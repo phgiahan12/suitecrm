@@ -1,11 +1,13 @@
 <?php
 $app_list_strings['institution_type_options'] = array (
-    ''                    => '-none-',
+    ''                                 => '-none-',
     'English/Private Language Schools' => 'English/Private Language Schools',
-    'K-12 Schools'        => 'K-12 Schools',
-    'College, University' => 'College, University',
-    'Kindergarten'        => 'Kindergarten',
-    'Other'               => 'Other',
+    'Skills Training Center'           => 'Skills Training Center',
+    'Study Abroad Advisory School'     => 'Study Abroad Advisory School',
+    'College, University'              => 'College, University',
+    'International School'             => 'International School',
+    'Kindergarten'                     => 'Preschool',
+    'Others'                           => 'Others',
 );
 $app_list_strings['school_type_options'] = array (
     ''              => '-none-',
@@ -97,13 +99,6 @@ $app_list_strings['salutation_dom'] = array(
     'Mr.' => 'Mr.',
     'Ms.' => 'Ms.',
 );
-$app_list_strings['quote_stage_dom'] = array(
-    'Draft'     => 'Bản thảo',
-    'Quoted'    => 'Đã gửi báo giá',
-    'Confirmed' => 'Đã xác nhận',
-    'Denied'    => 'KH từ chối',
-    'Expired'   => 'Hết hạn'
-);
 $app_list_strings['job_title_list'] = array(
     ''                    => '-none-',
     'CEO'                 => 'Chief Executive Officer (CEO)',
@@ -179,4 +174,31 @@ $app_list_strings['call_purpose_options'] = array(
     'Consultant'=>'Consultant',
     'Admission' => 'Admission',
     'Others'=>'Others'
+);
+$app_list_strings['sales_stage_dom'] = array(
+    'New'         => 'New',
+    'Quoted'      => 'Quoted',
+    'Negotiated'  => 'Negotiated',
+    'Win'         => 'Win',
+    'Loss'        => 'Loss',
+);
+$app_list_strings['sales_probability_dom'] = array(
+    'New'         => '10',
+    'Quoted'      => '50',
+    'Negotiated'  => '80',
+    'Win'         => '100',
+    'Loss'        => '0',
+);
+$app_list_strings['quote_stage_dom'] = array(
+    'Draft'       => 'Draft',
+    'In Progress' => 'In Progress',
+    'Confirmed'   => 'Confirmed',
+    'Denied'      => 'Denied',
+    'Expired'     => 'Expired'
+);
+$app_list_strings['contract_status_list'] = array(
+    'Draft'     => 'Draft',
+    'Valid'     => 'Valid',
+    'Invalid'   => 'Invalid',
+    'Cancelled' => 'Cancelled',
 );

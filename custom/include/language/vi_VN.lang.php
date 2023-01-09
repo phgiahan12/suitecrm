@@ -1,11 +1,13 @@
 <?php
 $app_list_strings['institution_type_options'] = array (
-    ''                    => '-không có-',
-    'English/Private Language Schools' => 'Trung tâm Ngoại Ngữ',
-    'K-12 Schools'        => 'K-12',
-    'College, University' => 'Trường Trung cấp/Cao đẳng/Đại học',
-    'Kindergarten'        => 'Trường Mầm non',
-    'Other'               => 'Khác',
+    ''                                 => '-không có-',
+    'English/Private Language Schools' => 'Trường Ngoại Ngữ',
+    'Skills Training Center'           => 'Trường Đào tạo kỹ năng',
+    'Study Abroad Advisory School'     => 'Trường Tư vấn du học',
+    'College, University'              => 'Trường Trung cấp / Cao đẳng / Đại học',
+    'International School'             => 'Trường Quốc tế',
+    'Kindergarten'                     => 'Trường mầm non',
+    'Others'                           => 'Khác',
 );
 $app_list_strings['school_type_options'] = array (
     ''              => '-không có-',
@@ -179,4 +181,31 @@ $app_list_strings['call_purpose_options'] = array(
     'Consultant'=>'Consultant',
     'Admission' => 'Admission',
     'Others'=>'Others'
+);
+$app_list_strings['sales_status_dom'] = array(
+    'New'        => 'Mới',
+    'Quoted'     => 'Báo giá',
+    'Negotiated' => 'Đàm phán',
+    'Win'        => 'Thành công',
+    'Loss'       => 'Thất bại',
+);
+$app_list_strings['sales_probability_dom'] = array(
+    'New'         => '10',
+    'Quoted'      => '50',
+    'Negotiated'  => '80',
+    'Win'         => '100',
+    'Loss'        => '0',
+);
+$app_list_strings['quote_stage_dom'] = array(
+    'Draft'       => 'Bản thảo',
+    'In Progress' => 'Đã báo giá',
+    'Confirmed'   => 'Đã xác nhận',
+    'Denied'      => 'KH từ chối',
+    'Expired'     => 'Hết hạn'
+);
+$app_list_strings['contract_status_list'] = array(
+    'Draft'     => 'Bản thảo',
+    'Valid'     => 'Có hiệu lực',
+    'Invalid'   => 'Hết hiệu lực',
+    'Cancelled' => 'Đã hủy',
 );

@@ -33,3 +33,19 @@ $dictionary['Prospect']['fields']['other_mobile'] = array(
     'len' => '50',
     'required' => false,
 );
+$dictionary['Prospect']['fields']['lead_source'] = array(
+    'name' => 'lead_source',
+    'vname' => 'LBL_LEAD_SOURCE',
+    'type' => 'enum',
+    'options' => 'lead_source_dom',
+    'len' => '50',
+    'comment' => 'Source of the sale',
+);
+$dictionary["Prospect"]["fields"]["lead_source_description"] = array (
+    'name' => 'lead_source_description',
+    'vname' => 'LBL_LEAD_SOURCE_DESCRIPTION',
+    'type' => 'text',
+    'group' => 'lead_source',
+    'comment' => 'Description of the lead source',
+    'rows' => 2,
+);

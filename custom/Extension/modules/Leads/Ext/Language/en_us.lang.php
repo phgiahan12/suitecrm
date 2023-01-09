@@ -16,4 +16,6 @@ $mod_strings = array (
     'LBL_OTHER_MOBILE'       => 'Other Mobile',
     'LBL_SCHOOL_TYPE'        => 'School Type',
     'LBL_CHANNEL'            => 'Channel',
+    'LBL_LEAD_SOURCE'        => 'Source',
+    'LBL_LEAD_SOURCE_DESCRIPTION'  => 'Source Description',
 );

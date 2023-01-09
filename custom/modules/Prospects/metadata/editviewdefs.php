@@ -97,7 +97,22 @@ array (
         ),
         6 => 
         array (
-          0 => 'assigned_user_name',
+          0 => 
+          array (
+            'name' => 'lead_source',
+            'comment' => 'Source of the sale',
+            'label' => 'LBL_LEAD_SOURCE',
+          ),
+          1 => 'assigned_user_name',
+        ),
+        7 => 
+        array (
+          0 => 
+          array (
+            'name' => 'lead_source_description',
+            'comment' => 'Description of the lead source',
+            'label' => 'LBL_LEAD_SOURCE_DESCRIPTION',
+          ),
           1 => '',
         ),
       ),

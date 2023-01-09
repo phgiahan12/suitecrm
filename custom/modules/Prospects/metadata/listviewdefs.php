@@ -44,6 +44,13 @@ array (
     'label' => 'LBL_STATUS',
     'width' => '10%',
   ),
+  'LEAD_SOURCE' => 
+  array (
+    'type' => 'enum',
+    'label' => 'LBL_LEAD_SOURCE',
+    'width' => '10%',
+    'default' => true,
+  ),
   'ASSIGNED_USER_NAME' => 
   array (
     'link' => true,
@@ -99,6 +106,14 @@ array (
   array (
     'type' => 'varchar',
     'label' => 'LBL_PRIMARY_ADDRESS_CITY',
+    'width' => '10%',
+    'default' => false,
+  ),
+  'LEAD_SOURCE_DESCRIPTION' => 
+  array (
+    'type' => 'text',
+    'label' => 'LBL_LEAD_SOURCE_DESCRIPTION',
+    'sortable' => false,
     'width' => '10%',
     'default' => false,
   ),
